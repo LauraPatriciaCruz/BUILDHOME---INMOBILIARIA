@@ -141,10 +141,10 @@ body {
 }
 
 .btn-wsp {
-    /* position:fixed; */
-    position:absolute;
+    position:fixed;
+    /* position:absolute;
     top: 660%;
-    left: 48%;
+    left: 48%; */
     width: 55px;
     height: 55px;
     line-height: 55px;
