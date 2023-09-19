@@ -185,3 +185,21 @@ img {
     animation-range: entry 25% cover 40%;
     animation-fill-mode: both;
 }
+
+
+@media only screen and (max-width: 767px) {
+    /* Estilo para hacer que la imagen sea responsive en dispositivos móviles */
+    .carousel-item.active {
+		/* Agrega un max-height para limitar la altura máxima */
+		max-height: 60vh; /* Puedes ajustar esta altura según tus necesidades */
+	}
+	
+	img {
+        max-width: 100%;
+		max-height: 100%;
+		width:auto;
+        height: auto;
+		display: block;
+    }
+	
+}
